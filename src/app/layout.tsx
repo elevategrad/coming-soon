@@ -31,7 +31,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased min-h-screen bg-background font-sans __variable_36bd41`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased max-h-screen bg-background font-sans __variable_36bd41`}
       >
         <DotPattern
           width={20}
